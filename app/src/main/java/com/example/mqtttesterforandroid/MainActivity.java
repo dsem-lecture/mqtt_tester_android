@@ -1,4 +1,4 @@
-package com.example.mqtttester;
+package com.example.mqtttesterforandroid;
 
 import android.app.Activity;
 import android.os.Bundle;
