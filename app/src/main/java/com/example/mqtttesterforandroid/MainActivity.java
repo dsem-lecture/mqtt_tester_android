@@ -229,7 +229,7 @@ public class MainActivity extends AppCompatActivity {
                                 runOnUiThread(new Runnable() {
                                     @Override
                                     public void run() {
-                                        Toast.makeText(activity, "publisher is registered.", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(activity, "Publisher is registered.", Toast.LENGTH_SHORT).show();
                                     }
                                 });
                             }
@@ -251,14 +251,14 @@ public class MainActivity extends AppCompatActivity {
                                 runOnUiThread(new Runnable() {
                                     @Override
                                     public void run() {
-                                        Toast.makeText(activity, "publish successed", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(activity, "Publish successed", Toast.LENGTH_SHORT).show();
                                     }
                                 });
                             } else {
                                 runOnUiThread(new Runnable() {
                                     @Override
                                     public void run() {
-                                        Toast.makeText(activity, "publish failed" + message, Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(activity, "Publish failed" + message, Toast.LENGTH_SHORT).show();
                                     }
                                 });
                             }

@@ -74,7 +74,7 @@
                     android:inputType="text"
                     android:minWidth="48dp"
                     android:minHeight="48dp"
-                    android:text="220.68.27.110" />
+                    android:text="localhost" />
 
                 <EditText
                     android:id="@+id/etPort"
